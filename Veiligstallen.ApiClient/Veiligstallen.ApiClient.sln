@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Veiligstallen.ApiClient", "Veiligstallen.ApiClient.csproj", "{F5494227-9D26-452E-B62F-7C66C20F08DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cartomatic", "Cartomatic", "{5027BC18-6B28-4AA1-9EE4-9CC36F3A65D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cartomatic.Utils", "..\..\..\..\Cartomatic\Utils\Cartomatic.Utils\Cartomatic.Utils.csproj", "{4E966FA4-3C18-4181-9C06-7A7EE1E4413C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5494227-9D26-452E-B62F-7C66C20F08DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5494227-9D26-452E-B62F-7C66C20F08DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5494227-9D26-452E-B62F-7C66C20F08DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5494227-9D26-452E-B62F-7C66C20F08DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E966FA4-3C18-4181-9C06-7A7EE1E4413C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E966FA4-3C18-4181-9C06-7A7EE1E4413C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E966FA4-3C18-4181-9C06-7A7EE1E4413C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E966FA4-3C18-4181-9C06-7A7EE1E4413C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E966FA4-3C18-4181-9C06-7A7EE1E4413C} = {5027BC18-6B28-4AA1-9EE4-9CC36F3A65D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B48F4CFD-CC61-492E-8084-62C669399E6D}
+	EndGlobalSection
+EndGlobal
