@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Cartomatic\Utils\Cartomatic.Utils\Cartomatic.Utils.csproj" />
+    <ProjectReference Include="..\..\..\..\Cartomatic\Cartomatic.Utils\Cartomatic.Utils\Cartomatic.Utils.csproj" />
   </ItemGroup>
 
 </Project>
