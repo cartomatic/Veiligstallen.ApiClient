@@ -1,11 +1,34 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29613.14
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12201.205 stable
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veiligstallen.ApiClient", "Veiligstallen.ApiClient\Veiligstallen.ApiClient.csproj", "{A8112413-3BF2-07F4-FA3D-2594C7993003}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cartomatic", "cartomatic", "{C9CAF5F8-B753-4999-9352-E2B009559875}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cartomatic.Utils", "..\..\..\cartomatic\Cartomatic.Utils\Cartomatic.Utils\Cartomatic.Utils.csproj", "{C564C8FB-3243-34E6-B0A6-3309363DAEDE}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8112413-3BF2-07F4-FA3D-2594C7993003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8112413-3BF2-07F4-FA3D-2594C7993003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8112413-3BF2-07F4-FA3D-2594C7993003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8112413-3BF2-07F4-FA3D-2594C7993003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C564C8FB-3243-34E6-B0A6-3309363DAEDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C564C8FB-3243-34E6-B0A6-3309363DAEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C564C8FB-3243-34E6-B0A6-3309363DAEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C564C8FB-3243-34E6-B0A6-3309363DAEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C564C8FB-3243-34E6-B0A6-3309363DAEDE} = {C9CAF5F8-B753-4999-9352-E2B009559875}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B48F4CFD-CC61-492E-8084-62C669399E6D}
